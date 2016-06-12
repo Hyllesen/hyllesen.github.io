@@ -1,3 +1,139 @@
 body {
-	background-color: blue;
+
+}
+
+h1 {
+	padding-top:25px;
+font-family: 'Slabo 27px', serif;
+font-weight:bold;
+color:white;
+}
+
+a {
+	color: #F58233;
+}
+
+
+h3 {
+
+	font-weight:bold;
+}
+
+.img-portofolio {
+	width:65%;
+}
+
+.technology-logo {
+	margin-top:10px;
+	max-width:190px;
+}
+
+.technology-row {
+	width:100%;
+	justify-content: center;
+}
+
+.orange {
+	color:#F58233;
+}
+
+.hr-black {
+	border-color: #F58233;
+	max-width:5%;
+	border: 2px solid #F58233;
+	
+}
+
+.contact-text {
+	font-weight:bold;
+	font-size:2em;
+	margin-bottom:5%;
+}
+
+.about-text {
+	font-size:1.3em;
+	font-weight:bold;
+	color:white;
+	padding-left:25%;
+	padding-right:25%;
+	margin-bottom:50px;
+	margin-top:25px;
+}
+
+#portofolio {
+	background-color: #15448E;
+	color:white;
+	font-weight:bold;
+}
+
+#about {
+	background-color: #246056;
+}
+
+#technologies {
+	background-color: #246056;
+}
+
+#contact {
+	background-color: #15448E;
+		color:white;
+
+}
+
+/* Landing page */
+#home {
+  background: transparent;
+  min-height: 100%;
+  position: relative;
+  background-position: fixed;  
+}
+
+#home:before {
+  content: '';
+  width: 100vw;
+  height: 350vh;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  background-image: url('images/laptop-grass.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  filter: brightness(50%);
+  background-attachment: fixed;    
+}
+
+.hr-sections {
+	max-width:200px;
+}
+
+.home-intro {
+	color: white;
+	margin-top: 15%;
+	margin-bottom:15%;
+}
+
+.section {
+	margin-bottom: 2%;
+	padding-bottom:5%;
+	box-shadow: 0px 5px 15px #000;
+}
+
+.contact-icons {
+	font-size:2.5em;
+	margin: 15px;
+}
+
+.contact-text {
+	font-size: 1.5em;
+	font-weight:bold;
+
 }

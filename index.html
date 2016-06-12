@@ -1,8 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700|Slabo+27px' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Stefan Hyltoft</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#about">About</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron text-center" id="home">
+    <div class="container home-intro">
+      <h1>Hi! I'm <span class="orange">Stefan</span>!</h1>
+      <hr>
+      <h3>I'm a <span class="orange">Developer </span></h3>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div id="about" class="col-lg-12 section">
+        <h1 class="text-center">About Me</h1>
+        <hr class="hr-black">
+        <div class="row ">
+          <div class="col-lg-12 about-text text-center ">
+            <p>My name is Stefan Hyltoft. I am currently studying to be a diploma engineer within software technology at DTU in Denmark. In my spare time I am also taking a online certificate on FreeCodeCamp with the goal of becoming a full-stack developer!</p>
+          </div>
+          <!-- Col-lg-8 for about text -->
+          <div class="col-lg-12 col-xs-12 text-center ">
+            <img src="images/stefanpic.png" </>
+          </div>
+          <!-- Inner Row with text and picture -->
+        </div>
+        <!-- 12 grid about section -->
+      </div>
+      <!-- Row 2nd -->
+    </div>
+    <!-- Row 1st -->
+
+    <div class="row">
+      <div id="portofolio" class="col-lg-12 section">
+        <h1 class="text-center">Portofolio</h1>
+        <hr class="hr-black">
+        <div class="row">
+          <div class="col-lg-4 col-xs-12 col-lg-offset-2 text-center">
+            <h3>Wikipedia Search Engine</h3>
+            <img class="img-portofolio" src="images/wikisearchengine.png">
+            <p>Search engine with instantanous search results using Wikipedia’s JSON API. Built with HTML5/CSS3/BS3/JS and jQuery library.</p>
+          </div>
+          <div class="col-lg-4 col-xs-12 text-center">
+            <h3>Twitch stream browser</h3>
+            <img class="img-portofolio"  src="images/twitchstream.png">
+            <p>Shows Twitch channels current status and a preview if the stream is online via Twitch JSON API. Using HTML5/SCSS/BS3/JS and jQuery library.</p>
+          </div>
+        </div>
+        <!-- row 1st content-->
+
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-2 text-center">
+            <h3>Quote generator</h3>
+            <img class="img-portofolio"  src="images/quotemachine.png">
+            <p>A page containing a set of predefined quotes which will be shown at random on press of button. Feature to tweet the quote. Built with HTML5/CSS3/JS.</p>
+          </div>
+          <div class="col-lg-4  text-center">
+            <h3>KvitCannabis.dk</h3>
+            <img class="img-portofolio"  src="images/kvitcannabis.png">
+            <p>Single-page design made with HTML5/BS3/CSS3 where I sell an eBook that I translated.</p>
+
+          </div>
+        </div>
+        <!-- row 2nd line of content-->
+      </div>
+      <!-- Row  1st -->
+    </div>
+
+    <div class="row">
+      <div id="technologies" class="col-lg-12  section">
+        <h1 class="text-center">Technologies</h1>
+        <hr class="hr-black">
+        <div class="row technology-row text-center">
+          <div class="col-lg-2 col-lg-offset-1 ">
+            <img class="technology-logo" src="images/html5logo.png">
+          </div>
+          <!-- html logo -->
+          <div class="col-lg-2">
+            <img class="technology-logo"  src="images/css3logo.png">
+          </div>
+          <div class="col-lg-2">
+            <img class="technology-logo" src="images/jslogo.png">
+          </div>
+          <div class="col-lg-2">
+            <img style="margin-top:25px" class="technology-logo" src="images/jquerylogo2.png">
+          </div>
+          <!-- jquery logo -->
+          <div class="col-lg-2">
+            <img style="margin-top:25px;" class="technology-logo" src="images/bs3logo.png">
+          </div>
+          <!-- bs3 logo -->
+		  </div>
+      </div>
+      <!-- 12 grid  section -->
+    </div>
+    <!-- Row  1st -->
+
+
+    <div class="row">
+      <div id="contact" class="col-lg-12 section">
+        <h1 class="text-center">Contact</h1>
+        <hr class="hr-black">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-1 ">
+            <p class="contact-text">Feel free to contact me on mail, phone or any of my social media pages!</p>
+          </div>
+          <!-- Col-lg-8 for  text -->
+          <div class="row">
+            <div class="col-lg-3 col-lg-offset-1">
+              <span class="glyphicon glyphicon-earphone contact-icons"></span> <span class="contact-text orange">+45 50 10 35 00</span>
+            </div>
+            <!-- Phone -->
+            <div class="col-lg-5 col-lg-offset-3">
+              <a target="_blank" href="http://www.facebook.com/stefan.hyltoft"><img width="30" class="contact-icons" src="images/facebook.png"> <span class="contact-text">facebook.com/stefan.hyltoft</span></a>
+            </div>
+            <!-- facebook -->
+          </div>
+          <!-- first row of contact details -->
+
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+              <span class="glyphicon glyphicon-envelope contact-icons"></span> <span class="contact-text orange">stefanhyltoft@gmail.com</span>
+            </div>
+            <!-- mail -->
+            <div class="col-lg-5 col-lg-offset-2">
+              <a target="_blank" href="https://www.linkedin.com/in/stefanhyltoft"><img width="30" class="contact-icons" src="images/linked-in.png"> <span class="contact-text">linkedin.com/in/stefanhyltoft</span></a>
+            </div>
+            <!-- linkedin -->
+          </div>
+          <!-- second row of contact details -->
+
+        </div>
+        <!-- Row 2nd -->
+
+      </div>
+      <!-- Row  1st -->
+    </div>
+    <!-- Container -->
+</body>
+
 </html>
