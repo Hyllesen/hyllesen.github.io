@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	padding-top:25px;
+padding-top:25px;
 font-family: 'Slabo 27px', serif;
 font-weight:bold;
 color:white;
@@ -25,13 +25,9 @@ h3 {
 
 .technology-logo {
 	margin-top:10px;
-	max-width:190px;
+	max-width:180px;
 }
 
-.technology-row {
-	width:100%;
-	justify-content: center;
-}
 
 .orange {
 	color:#F58233;
