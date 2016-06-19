@@ -7,22 +7,61 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700|Slabo+27px' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  
+  <script async>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if 
+  });
+})
+</script>
 </head>
 
-<body>
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Stefan Hyltoft</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#about">About</a></li>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Stefan Hyltoft - Developer</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
         <li><a href="#portofolio">Portofolio</a></li>
         <li><a href="#technologies">Technologies</a></li>
-        <li><a href="#contact">Contact</a></li>
+		<li><a href="#contact">Contact</a></li>
+
       </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <header class="jumbotron text-center" id="home">
     <div class="container home-intro">
@@ -32,7 +71,7 @@
     </div>
   </header>
 
-  <div class="container-fluid">
+  <div id="home" class="container-fluid">
     <div class="row">
       <div id="about" class="col-lg-12 section">
         <h1 class="text-center" style="color:black">About Me</h1>
@@ -83,9 +122,12 @@
             <p>Single-page design made with HTML5/BS3/CSS3 where I sell an eBook that I translated.</p>
 
           </div>
-        </div> <!-- 2nd portofolio row -->
-      </div> <!--- 1st Portofolio div -->
-    </div> <!-- Row 1st containing portofolio -->
+        </div>
+        <!-- 2nd portofolio row -->
+      </div>
+      <!--- 1st Portofolio div -->
+    </div>
+    <!-- Row 1st containing portofolio -->
 
 
     <div class="row">
@@ -117,40 +159,33 @@
     </div>
     <!-- Row  1st -->
 
-    <div class="row">
+    <div class="row"> <!-- Contact -->
       <div id="contact" class="col-lg-12 section">
         <h1 class="text-center" style="color:black">Contact</h1>
         <hr class="hr-black">
 
-          <!-- Col-lg-8 for  text -->
-          <div class="row well">
-            <div class="col-lg-4 col-lg-offset-3 ">
-              <span class="glyphicon glyphicon-earphone contact-icons"></span> <span class="contact-text orange">+45 50 10 35 00</span>
-            </div>
-            <!-- Phone -->
-            <div class="col-lg-3 ">
+        <!-- Col-lg-8 for  text -->
+        <div class="row well">
+          <div class="col-lg-3 col-lg-offset-3">
+            <span class="glyphicon glyphicon-earphone contact-icons"></span> <span class="contact-text orange">+45 50 10 35 00</span>
+            <p>
               <a target="_blank" href="http://www.facebook.com/stefan.hyltoft"><img width="30" class="contact-icons" src="images/facebook.png"> <span class="contact-text">facebook.com/stefan.hyltoft</span></a>
-            </div>
-            <!-- facebook -->
-          <!-- first row of contact details -->
+			  <p>
+			<a target="_blank"  href="https://www.freecodecamp.com/hyllesen"><img width="30" class="contact-icons" src="images/fccicon.jpg"> <span class="contact-text">freecodecamp.com/hyllesen</span></a>
 
-            <div class="col-lg-4 col-lg-offset-3">
-              <span class="glyphicon glyphicon-envelope contact-icons"></span> <span class="contact-text orange">stefanhyltoft@gmail.com</span>
-            </div>
-            <!-- mail -->
-            <div class="col-lg-4 ">
-              <a target="_blank" href="https://www.linkedin.com/in/stefanhyltoft"><img width="30" class="contact-icons" src="images/linked-in.png"> <span class="contact-text">linkedin.com/in/stefanhyltoft</span></a>
-            </div>
-			          </div>
-
-            <!-- linkedin -->
-          <!-- second row of contact details -->
-        <!-- Row 2nd -->
-      </div> <!--- div id contact -->
-      <!-- Row  1st -->
+          </div>
+          <div class="col-lg-3 col-lg-offset-1">
+            <span class="glyphicon glyphicon-envelope contact-icons"></span> <span class="contact-text orange">stefanhyltoft@gmail.com</span>
+            <p>
+              <a  target="_blank" href="https://www.linkedin.com/in/stefanhyltoft"><img width="30" class="contact-icons" src="images/linked-in.png"> <span class="contact-text">linkedin.com/in/stefanhyltoft</span></a>
+              <p>
+			<a  target="_blank" href="https://github.com/Hyllesen/"><img width="30" class="contact-icons" src="images/githubicon.png"> <span class="contact-text">github.com/Hyllesen/</span></a>
+			</div>			
+		  </div>
+      </div> 	
     </div>
-
   </div>     <!-- Container-fluid -->
+
 
 </body>
 
