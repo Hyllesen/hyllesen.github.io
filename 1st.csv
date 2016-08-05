@@ -1,0 +1,61 @@
+Column 1,Column 2,Column 3,Column 4,Column 5
+62999,Innovation Pilot,10,point,"E5A (ons 8-12) og E5B (ons 13-17), F5A (ons 8-12) og F5B (ons 13-17)"
+02110,Algoritmer og datastrukturer 2,5,point,E2B (tors 8-12)
+02141,Datalogisk modellering,10,point,"F4 (tirs 13-17, fre 8-12)"
+02157,Funktionsprogrammering,5,point,E4B (fre 8-12)
+02162,Software Engineering 2,10,point,"E3 (tirs 8-12, fre 13-17)"
+02165,Udvikling af softwareprodukter,5,point,Januar
+02180,Introduktion til kunstig intelligens,5,point,F3A (tirs 8-12)
+02233,Netværkssikkerhed,5,point,F4A (tirs 13-17)
+02239,Datasikkerhed,7.5,point,E5B (ons 13-17)
+02264,Kravspecifikation,10,point,"E3 (tirs 8-12, fre 13-17)"
+02266,User Experience Engineering,5,point,Januar
+02267,Software-udvikling af Webtjenester,5,point,E1A (man 8-12)
+02350,Windows Programming using C# and .Net,5,point,E3A (tirs 8-12)
+02393,Programmering i C++,5,point,Efterår
+02823,Computerspil prototyper,5,point,E4A (tirs 13-17)
+62233,Avanceret database,7.5,point,Forår
+62522,Mobilapplikationsudvikling - Android,7.5,point,"E1B (tors 13-17), F1B (tors 13-17)"
+62563,Videregående mobilapplikationsudvikling,7.5,point,F4A (tirs 13-17)
+62570,Intelligente biler og mobile applikationer,5,point,"E5B (ons 13-17), F3B (fre 13-17)"
+62579,Skak programmering,5,point,Januar
+62585,3D-brilleteknologi og mobile enheder,5,point,"E2A (man 13-17), F2B (tors 8-12)"
+62586,3D-brilleteknologi og mobile enheder m./ projekt,10,point,"E2A (man 13-17), F2B (tors 8-12)"
+62595,iOS Application Development with Swift,5,point,E5B (ons 13-17) og F1B (tors 13-17)
+02806,Social data analyse og visualisering,5,point,F3A (tirs 8-12)
+02155,Computerarkitektur,5,point,E2A (man 13-17)
+02203,Design af digitale systemer,5,point,E2B (tors 8-12)
+02204,Design af asynkrone kredsløb,5,point,F2A (man 13-17)
+02205,VLSI Design,5,point,F3A (tirs 8-12)
+02209,Test af digitale systemer,5,point,E1B (tors 13-17)
+02211,Videregående computerarkitektur,5,point,F4A (tirs 13-17)
+02223,Fundamentale modeller for moderne indlejrede systemer,7.5,point,E4B (fre 8-12)
+01035,Matematik 2,5,point,"E1A (man 8-12), E2B (tors 8-12), F2B (tors 8-12), August"
+01227,Grafteori,5,point,F1B (tors 13-17)
+01410,Kryptologi 1,5,point,F2A (man 13-17)
+02405,Sandsynlighedsregning,5,point,E4B (fre 8-12)
+02443,Stokastisk simulation,5,point,Juni
+02526,Matematisk modellering,5,point,F3A (tirs 8-12)
+02601,Introduktion til numeriske algoritmer,5,point,F1B (tors 13-17)
+42101,Introduktion til operationsanalyse,5,point,"E2A (man 13-17), F2A (man 13-17)"
+62519,Sikkerhed i IoT enheder og netværk,5,point,"E5A (ons 8-12), F5A (ons 8-12)"
+02450,Introduktion til machine learning og data mining,5,point,E4A (tirs 13-17) og F4A (tirs 13-17)
+02502,Billedanalyse,5,point,E3A (tirs 8-12)
+02504,Computer Vision,5,point,F3B (fre 13-17)
+02507,Projektarbejde inden for billedanalyse og computer grafik,5,point,Januar
+02513,Industriel billedanalyse,5,point,Juni
+02561,Computer grafik,5,point,E5A (ons 8-12)
+02562,Rendering - introduktion,5,point,E5B (ons 13-17)
+02565,Computer Animation og Modellering,10,point,"F2 (man 13-17, tors 8-12)"
+31300,Reguleringsteknik 1,5,point,"F5B (ons 13-17), E5B (ons 13-17)"
+31305,Projekter i praktisk regulering,5,point,Januar
+31340,Datamatbaseret regulering,10,point,E5 (ons 8-17)
+31371,Indlejret System Innovation,5,point,E2A (man 13-17)
+31385,Autonome robotsystemer,5,point,Januar
+31388,Avancerede Autonome Robotter,10,point,"F4 (tirs 13-17, fre 8-12)"
+62572,Autonome køretøjer,5,point,August
+42042,Brugerinvolverende systemdesign,5,point,F4A (tirs 13-17)
+42415,Teknisk økonomi,5,point,"E3A (tirs 8-12), F3A (tirs 8-12)"
+42430,Projektledelse,5,point,F1A (man 8-12)
+42435,Virksomhedsstart,5,point,E2A (man 13-17) og F2A (man 13-17)
+42922,Ledelse og organisation,5,point,E2A (man 13-17)
