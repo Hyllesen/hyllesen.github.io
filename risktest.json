@@ -1,0 +1,192 @@
+{
+  "portfolioRisk": 3,
+  "portfolioRiskPerDate": [
+    {
+      "date": "12-09-2016",
+      "value": 0.013490147882338555625
+    },
+    {
+      "date": "13-09-2016",
+      "value": 0.01374248957708942125
+    },
+    {
+      "date": "14-09-2016",
+      "value": 0.013994831271840286875
+    },
+    {
+      "date": "15-09-2016",
+      "value": 0.0142471729665911525
+    },
+    {
+      "date": "16-09-2016",
+      "value": 0.014499514661342018125
+    },
+    {
+      "date": "19-09-2016",
+      "value": 0.01475185635609288375
+    },
+    {
+      "date": "20-09-2016",
+      "value": 0.015004198050843749375
+    },
+    {
+      "date": "21-09-2016",
+      "value": 0.015256539745594615
+    },
+    {
+      "date": "22-09-2016",
+      "value": 0.015508881440345480625
+    },
+    {
+      "date": "23-09-2016",
+      "value": 0.01576122313509634625
+    },
+    {
+      "date": "26-09-2016",
+      "value": 0.016013564829847211875
+    },
+    {
+      "date": "27-09-2016",
+      "value": 0.0162659065245980775
+    },
+    {
+      "date": "28-09-2016",
+      "value": 0.016518248219348943125
+    },
+    {
+      "date": "29-09-2016",
+      "value": 0.01677058991409980875
+    },
+    {
+      "date": "30-09-2016",
+      "value": 0.017022931608850674375
+    },
+    {
+      "date": "03-10-2016",
+      "value": 0.01727527330360154
+    },
+    {
+      "date": "04-10-2016",
+      "value": 0.017527614998352405625
+    },
+    {
+      "date": "05-10-2016",
+      "value": 0.01777995669310327125
+    },
+    {
+      "date": "06-10-2016",
+      "value": 0.018032298387854136875
+    },
+    {
+      "date": "07-10-2016",
+      "value": 0.0182846400826050025
+    },
+    {
+      "date": "10-10-2016",
+      "value": 0.018536981777355868125
+    },
+    {
+      "date": "11-10-2016",
+      "value": 0.01878932347210673375
+    },
+    {
+      "date": "12-10-2016",
+      "value": 0.019041665166857599375
+    },
+    {
+      "date": "13-10-2016",
+      "value": 0.019294006861608465
+    },
+    {
+      "date": "14-10-2016",
+      "value": 0.019546348556359330625
+    },
+    {
+      "date": "17-10-2016",
+      "value": 0.01979869025111019625
+    },
+    {
+      "date": "18-10-2016",
+      "value": 0.020051031945861061875
+    },
+    {
+      "date": "19-10-2016",
+      "value": 0.0203033736406119275
+    },
+    {
+      "date": "20-10-2016",
+      "value": 0.020555715335362793125
+    }
+  ],
+  "title": "Risiko",
+  "next": null,
+  "previous": {
+    "title": "Formue",
+    "selected": false,
+    "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/assets"
+  },
+  "linkGroups": [
+    {
+      "title": "Periode",
+      "style": "Timeline",
+      "links": [
+        {
+          "title": "3 mdr.",
+          "selected": true,
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/M3"
+        },
+        {
+          "title": "6 mdr.",
+          "selected": false,
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/M6"
+        },
+        {
+          "title": "12 mdr.",
+          "selected": false,
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/M12"
+        },
+        {
+          "title": "YTD",
+          "selected": false,
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/YTD"
+        }
+      ]
+    }
+  ],
+  "portfolioSelector": {
+    "title": null,
+    "style": "Spinner",
+    "links": [
+      {
+        "title": "Samlet",
+        "selected": true,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/M3"
+      },
+      {
+        "title": "Danske Bank - Pension",
+        "selected": false,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/101/risk/M3"
+      },
+      {
+        "title": "Ebberød Bank - Holding",
+        "selected": false,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/103/risk/M3"
+      },
+      {
+        "title": "Ebberød Bank - Personlig",
+        "selected": false,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/102/risk/M3"
+      },
+      {
+        "title": "HSBC - Holding",
+        "selected": false,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/105/risk/M3"
+      },
+      {
+        "title": "JP Morgan - Personlig",
+        "selected": false,
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/104/risk/M3"
+      }
+    ]
+  }
+}
