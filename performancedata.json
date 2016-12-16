@@ -1,0 +1,347 @@
+{
+  "portfolioName": "Total portefølje",
+  "portfolioReturnInPeriod": 0.057,
+  "costInPeriod": 0.017,
+  "valueForMoney": -0.15,
+  "portfolioReturn": [
+    {
+      "date": "2016-09-19",
+      "value": 0.0076117622666922858333333333
+    },
+    {
+      "date": "2016-09-20",
+      "value": 0.0100869362406589116666666667
+    },
+    {
+      "date": "2016-09-21",
+      "value": 0.0125621102146255375
+    },
+    {
+      "date": "2016-09-22",
+      "value": 0.0150372841885921633333333333
+    },
+    {
+      "date": "2016-09-23",
+      "value": 0.0175124581625587891666666667
+    },
+    {
+      "date": "2016-09-26",
+      "value": 0.019987632136525415
+    },
+    {
+      "date": "2016-09-27",
+      "value": 0.0224628061104920408333333333
+    },
+    {
+      "date": "2016-09-28",
+      "value": 0.0249379800844586666666666667
+    },
+    {
+      "date": "2016-09-29",
+      "value": 0.0274131540584252925
+    },
+    {
+      "date": "2016-09-30",
+      "value": 0.0298883280323919183333333333
+    },
+    {
+      "date": "2016-10-03",
+      "value": 0.0323635020063585441666666667
+    },
+    {
+      "date": "2016-10-04",
+      "value": 0.03483867598032517
+    },
+    {
+      "date": "2016-10-05",
+      "value": 0.0373138499542917958333333333
+    },
+    {
+      "date": "2016-10-06",
+      "value": 0.0397890239282584216666666667
+    },
+    {
+      "date": "2016-10-07",
+      "value": 0.0422641979022250475
+    },
+    {
+      "date": "2016-10-10",
+      "value": 0.0447393718761916733333333333
+    },
+    {
+      "date": "2016-10-11",
+      "value": 0.0472145458501582991666666667
+    },
+    {
+      "date": "2016-10-12",
+      "value": 0.049689719824124925
+    },
+    {
+      "date": "2016-10-13",
+      "value": 0.0521648937980915508333333333
+    },
+    {
+      "date": "2016-10-14",
+      "value": 0.0546400677720581766666666667
+    },
+    {
+      "date": "2016-10-17",
+      "value": 0.0571152417460248025
+    },
+    {
+      "date": "2016-10-18",
+      "value": 0.0595904157199914283333333333
+    },
+    {
+      "date": "2016-10-19",
+      "value": 0.0620655896939580541666666667
+    },
+    {
+      "date": "2016-10-20",
+      "value": 0.06454076366792468
+    },
+    {
+      "date": "2016-10-21",
+      "value": 0.0670159376418913058333333333
+    },
+    {
+      "date": "2016-10-24",
+      "value": 0.0694911116158579316666666667
+    },
+    {
+      "date": "2016-10-25",
+      "value": 0.0719662855898245575
+    },
+    {
+      "date": "2016-10-26",
+      "value": 0.0744414595637911833333333333
+    },
+    {
+      "date": "2016-10-27",
+      "value": 0.0769166335377578091666666667
+    }
+  ],
+  "benchmarkReturn": [
+    {
+      "date": "2016-09-19",
+      "value": 0.0066117622666922858333333333
+    },
+    {
+      "date": "2016-09-20",
+      "value": 0.0120869362406589116666666667
+    },
+    {
+      "date": "2016-09-21",
+      "value": 0.0135621102146255375
+    },
+    {
+      "date": "2016-09-22",
+      "value": 0.0170372841885921633333333333
+    },
+    {
+      "date": "2016-09-23",
+      "value": 0.0105124581625587891666666667
+    },
+    {
+      "date": "2016-09-26",
+      "value": 0.029987632136525415
+    },
+    {
+      "date": "2016-09-27",
+      "value": 0.0324628061104920408333333333
+    },
+    {
+      "date": "2016-09-28",
+      "value": 0.0549379800844586666666666667
+    },
+    {
+      "date": "2016-09-29",
+      "value": 0.0774131540584252925
+    },
+    {
+      "date": "2016-09-30",
+      "value": 0.0198883280323919183333333333
+    },
+    {
+      "date": "2016-10-03",
+      "value": 0.0523635020063585441666666667
+    },
+    {
+      "date": "2016-10-04",
+      "value": 0.01483867598032517
+    },
+    {
+      "date": "2016-10-05",
+      "value": 0.0473138499542917958333333333
+    },
+    {
+      "date": "2016-10-06",
+      "value": 0.0197890239282584216666666667
+    },
+    {
+      "date": "2016-10-07",
+      "value": 0.0222641979022250475
+    },
+    {
+      "date": "2016-10-10",
+      "value": 0.0647393718761916733333333333
+    },
+    {
+      "date": "2016-10-11",
+      "value": 0.0272145458501582991666666667
+    },
+    {
+      "date": "2016-10-12",
+      "value": 0.089689719824124925
+    },
+    {
+      "date": "2016-10-13",
+      "value": 0.0221648937980915508333333333
+    },
+    {
+      "date": "2016-10-14",
+      "value": 0.0346400677720581766666666667
+    },
+    {
+      "date": "2016-10-17",
+      "value": 0.0771152417460248025
+    },
+    {
+      "date": "2016-10-18",
+      "value": 0.0495904157199914283333333333
+    },
+    {
+      "date": "2016-10-19",
+      "value": 0.0720655896939580541666666667
+    },
+    {
+      "date": "2016-10-20",
+      "value": 0.02454076366792468
+    },
+    {
+      "date": "2016-10-21",
+      "value": 0.0470159376418913058333333333
+    },
+    {
+      "date": "2016-10-24",
+      "value": 0.0294911116158579316666666667
+    },
+    {
+      "date": "2016-10-25",
+      "value": 0.0719662855898245575
+    },
+    {
+      "date": "2016-10-26",
+      "value": 0.0244414595637911833333333333
+    },
+    {
+      "date": "2016-10-27",
+      "value": 0.0669166335377578091666666667
+    }
+  ],
+  "investmentPerformance": [],
+  "title": "Performance",
+  "next": {
+    "title": "Risiko",
+    "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/risk/M3"
+  },
+  "previous": {
+    "title": "Ranking",
+    "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/ranking/percentage/M3"
+  },
+  "optionGroups": [
+    {
+      "title": "Periode",
+      "style": "Timeline",
+      "options": [
+        {
+          "selected": false,
+          "title": "1D",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/D1"
+        },
+        {
+          "selected": false,
+          "title": "1M",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M1"
+        },
+        {
+          "selected": true,
+          "title": "3M",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M3"
+        },
+        {
+          "selected": false,
+          "title": "6M",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M6"
+        },
+        {
+          "selected": false,
+          "title": "12M",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M12"
+        },
+        {
+          "selected": false,
+          "title": "MTD",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/MTD"
+        },
+        {
+          "selected": false,
+          "title": "YTD",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/YTD"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "style": "ButtonGroup",
+      "options": [
+        {
+          "selected": false,
+          "title": "Vis i kroner",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/amount/M3"
+        },
+        {
+          "selected": true,
+          "title": "Vis i %",
+          "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M3"
+        }
+      ]
+    }
+  ],
+  "portfolioSelector": {
+    "title": null,
+    "style": "Spinner",
+    "options": [
+      {
+        "selected": true,
+        "title": "Samlet",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/000/performance/percentage/M3"
+      },
+      {
+        "selected": false,
+        "title": "Danske Bank - Pension",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/101/performance/percentage/M3"
+      },
+      {
+        "selected": false,
+        "title": "Ebberød Bank - Holding",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/103/performance/percentage/M3"
+      },
+      {
+        "selected": false,
+        "title": "Ebberød Bank - Personlig",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/102/performance/percentage/M3"
+      },
+      {
+        "selected": false,
+        "title": "HSBC - Holding",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/105/performance/percentage/M3"
+      },
+      {
+        "selected": false,
+        "title": "JP Morgan - Personlig",
+        "uri": "https://mobileapi.assurewealth.com/api/customer/1/portfolio/104/performance/percentage/M3"
+      }
+    ]
+  }
+}
