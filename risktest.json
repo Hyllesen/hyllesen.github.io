@@ -1,8 +1,3 @@
-// Just random data to display in charts
-export default {
-
-// 20161212115017
-// https://hyllesen.github.io/risktest.json
 
 
     "portfolioRiskPerDate":
@@ -244,4 +239,3 @@ export default {
 }
 ]
 ]
-};
