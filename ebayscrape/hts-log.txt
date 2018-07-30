@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 30 Jul 2018 22:25:37 at https://offer.ebay.com/ws/eBayISAPI.dll?ViewBidsLogin&item=232169710506 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://offer.ebay.com/ws/eBayISAPI.dll?ViewBidsLogin&item=232169710506 -O1 "D:\My Web Sites\ebayCopy" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:25:54	Warning: 	Moved Temporarily for https://offer.ebay.com/ws/webtv/
+22:25:54	Warning: 	File has moved from https://offer.ebay.com/ws/webtv/ to http://pages.ebay.com/messages/page_not_found.html?eBayErrorEventName=p4lc%60bqfiuf%3F%3Ctof60.45%3E2275-2018.07.30.13.25.57.091.MST
+22:25:55	Warning: 	Moved Temporarily for https://offer.ebay.com/ws/immo.ebay.be/fr/
+22:25:55	Warning: 	File has moved from https://offer.ebay.com/ws/immo.ebay.be/fr/ to http://pages.ebay.com/messages/page_not_found.html?eBayErrorEventName=p4lc%60bqfiuf%3F%3Ctof60.457%3B074-2018.07.30.13.25.59.040.MST
+
+HTTrack Website Copier/3.49-2 mirror complete in 18 seconds : 47 links scanned, 44 files written (600797 bytes overall) [312451 bytes received at 17358 bytes/sec], 448213 bytes transferred using HTTP compression in 9 files, ratio 30%, 3.0 requests per connection
+(No errors, 4 warnings, 0 messages)

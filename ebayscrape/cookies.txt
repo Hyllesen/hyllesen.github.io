@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.ebay.com	TRUE	/ 	FALSE	1999999999	dp1	bu1p/QEBfX0BAX19AQA**5d40a7c7^bl/DK5f21db47^
+.ebay.com	TRUE	/ 	FALSE	1999999999	nonsession	CgADLAAFbX3tPMgDKACBkxXXHZWNkZTMyNWIxNjQwYWMzZDA4ZjcwMzM3ZmYzMThhOTZZXusY
+.ebay.com	TRUE	/	FALSE	1999999999	ebay	%5Esbf%3D%23%5E
+.ebay.com	TRUE	/	FALSE	1999999999	s	CgAD4ACBbYMXHZWNkZTMyNmIxNjQwYWMzZDA4ZjcwMzM3ZmYzMThhOTVO+JF0
+
